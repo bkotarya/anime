@@ -1,0 +1,85 @@
+
+
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+body{
+/* background-color: orangered; */
+}
+nav{
+height: 150px;
+width: 1000px;
+background-color:rgb(34, 6, 87);
+align-items: center;
+display: flex;
+}
+#cn{
+margin-left: 50px;
+}
+/* #search{
+margin-left: 100px;
+height: 40px;
+width: 300px;
+border-radius: 10px;
+font-size: 25px;
+} */
+/* #searchbotton{
+height: 40px;
+width: 40px;
+border-radius: 10px;
+} */
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  margin-left: 150px;
+}
+#like{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 100px;
+ background-color: red;
+ height: 70px;
+ width: 70px;
+ border-radius: 50%;
+ margin-top: 30px;
+}
+#heart{
+  margin-left: -8px;
+  margin-top:-5px;
+  background-color: red;
+  border-radius: 50%;
+}
+.animes-list{
+display: grid;
+grid-template-columns:auto auto;
+justify-content: center;
+}
+.anime{
+background-color: #4F4F58;
+border: solid 2px black;
+width: 500px;
+height: 450px;
+justify-content: center;
+align-items: center;
+color: white;
+}
+#loader{
+height: 100px;
+width: 100px;
+}
+.anime img{
+height: 100px;
+width: 70px;
+}
+.anime button{
+background-color: transparent;
+border: none;
+font-size: 60px;
+}
+.anime button:active {
+transform: scale(1.5);
+}
